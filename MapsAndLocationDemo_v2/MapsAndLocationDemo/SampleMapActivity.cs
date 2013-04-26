@@ -43,6 +43,10 @@ namespace MapsAndLocationDemo
             // We create an instance of CameraUpdate, and move the map to it.
             var cameraUpdate = CameraUpdateFactory.NewLatLngZoom(VimyRidge, 15);
             _map.MoveCamera(cameraUpdate);
+
+            var tileProvider = new OsmTileProvider();
+            var tileOptions  = new TileOverlayOptions();
+            _map.AddTileOverlay( tileOptions.InvokeTileProvider(tileProvider) );
         }
 
         /// <summary>

@@ -53,6 +53,7 @@
     <Compile Include="MapWithMarkersActivity.cs" />
     <Compile Include="LocationActivity.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="OsmTileProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
