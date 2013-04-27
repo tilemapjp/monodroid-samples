@@ -55,7 +55,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Xamarin.Android.Bindings.targets" />
   <ItemGroup>
-    <LibraryProjectProperties Include="..\google-play-services_lib\project.properties">
+    <LibraryProjectProperties Include="..\..\..\..\..\..\..\adt-bundle-mac\sdk\extras\google\google_play_services\libproject\google-play-services_lib\project.properties">
       <Link>project.properties</Link>
     </LibraryProjectProperties>
   </ItemGroup>
